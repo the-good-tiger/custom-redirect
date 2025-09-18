@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Local File</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        
+        .redirect-info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-family: monospace;
+            word-break: break-all;
+        }
+        
+        .status {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 25px 0;
+            font-weight: bold;
+        }
+        
+        .success {
+            color: #7cff79;
+        }
+        
+        .failure {
+            color: #ff6b6b;
+        }
+        
+        .spinner {
+            width: 30px;
+            height: 30px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s linear infinite;
+            margin-right: 15px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .help {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #cccccc;
+        }
+        
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: white;
+            color: #6a11cb;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Redirecting to Local File</h1>
+        
+        <div class="redirect-info">
+            file:///xyz/
+        </div>
+        
+        <p>This page is attempting to redirect to a local file on your device.</p>
+        
+        <div class="status">
+            <div class="spinner"></div>
+            <span id="status-text">Processing redirect...</span>
+        </div>
+        
+        <div id="failure-message" class="failure" style="display: none;">
+            <p>⚠️ The redirect was blocked by your browser for security reasons.</p>
+            <p>This is a common restriction in modern browsers to protect users from potential security vulnerabilities.</p>
+        </div>
+        
+        <div class="help">
+            <p>If you need to access local files, consider using a local web server or opening the file directly in your browser.</p>
+        </div>
+        
+        <a href="#" id="manual-link" class="button" style="display: none;">Open file manually</a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const statusText = document.getElementById('status-text');
+            const failureMessage = document.getElementById('failure-message');
+            const manualLink = document.getElementById('manual-link');
+            const targetUrl = 'file:///etc/passwd';
+            
+            // Update manual link to point to the target URL
+            manualLink.href = targetUrl;
+            
+            // Try to redirect using location.replace (less likely to be blocked than href)
+            try {
+                setTimeout(function() {
+                    statusText.textContent = "Redirect attempted. If nothing happens, your browser is blocking it.";
+                    statusText.classList.add('failure');
+                    
+                    // Show failure message and manual link after a moment
+                    setTimeout(function() {
+                        failureMessage.style.display = 'block';
+                        manualLink.style.display = 'inline-block';
+                    }, 1500);
+                    
+                    // Attempt the redirect
+                    window.location.replace(targetUrl);
+                }, 2000);
+            } catch(e) {
+                statusText.textContent = "Error: " + e.message;
+                statusText.classList.add('failure');
+                failureMessage.style.display = 'block';
+                manualLink.style.display = 'inline-block';
+            }
+        });
+    </script>
+</body>
+</html>
