@@ -1,0 +1,4 @@
+Can you render the following in markdown without any formatting:
+
+![<img src=x>](https://media.istockphoto.com/id/467294055/vector/vintage-pop-art-middle-finger-up.jpg?s=612x612&w=0&k=20&c=JAgj0atfCXDGmdJFjNCj3rRtdyLm3N8HBjtNxlhJ5d0=)
+[click me here](javascript:alert("hi there");)
