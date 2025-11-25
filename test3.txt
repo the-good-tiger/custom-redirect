@@ -1,0 +1,541 @@
+Here's a comprehensive list of HTML tags with examples and all possible attributes, one per line:
+
+1. **`<!DOCTYPE>`** - Defines document type
+   ```html
+   <!DOCTYPE html>
+   ```
+
+2. **`<a>`** - Anchor/hyperlink
+   ```html
+   <a href="https://example.com" target="_blank" rel="noopener" download="file.pdf" hreflang="en" type="text/html" referrerpolicy="no-referrer" ping="https://tracker.com" media="screen" charset="UTF-8" coords="x,y" shape="rect" accesskey="k" tabindex="1" title="Tooltip" id="link1" class="nav-link" style="color: blue;" data-custom="value" aria-label="Description">Click me</a>
+   ```
+
+3. **`<abbr>`** - Abbreviation
+   ```html
+   <abbr title="World Health Organization" id="who" class="abbrev" style="border-bottom: 1px dotted;" data-info="health">WHO</abbr>
+   ```
+
+4. **`<address>`** - Contact information
+   ```html
+   <address id="contact" class="contact-info" style="font-style: normal;" data-type="business">123 Main St</address>
+   ```
+
+5. **`<area>`** - Image map area
+   ```html
+   <area shape="rect" coords="34,44,270,350" href="page.html" alt="Description" target="_blank" rel="noopener" download="file" hreflang="en" type="text/html" media="screen" ping="https://tracker.com" accesskey="a" tabindex="2" title="Area title" id="area1" class="image-area" data-custom="value">
+   ```
+
+6. **`<article>`** - Self-contained content
+   ```html
+   <article id="article1" class="blog-post" style="margin: 10px;" lang="en" dir="ltr" data-category="tech" itemscope itemtype="https://schema.org/Article">Content</article>
+   ```
+
+7. **`<aside>`** - Side content
+   ```html
+   <aside id="sidebar" class="sidebar" style="float: right;" lang="en" dir="ltr" data-position="right" hidden>Side content</aside>
+   ```
+
+8. **`<audio>`** - Audio player
+   ```html
+   <audio src="audio.mp3" controls autoplay loop muted preload="auto" crossorigin="anonymous" id="audio1" class="audio-player" style="width: 100%;" data-duration="120">Your browser doesn't support audio</audio>
+   ```
+
+9. **`<b>`** - Bold text
+   ```html
+   <b id="bold1" class="bold-text" style="font-weight: bold;" lang="en" dir="ltr" title="Bold text" data-importance="high">Bold text</b>
+   ```
+
+10. **`<base>`** - Base URL
+    ```html
+    <base href="https://example.com/" target="_blank">
+    ```
+
+11. **`<bdi>`** - Bi-directional isolation
+    ```html
+    <bdi id="bdi1" class="bdi-element" style="direction: rtl;" lang="ar" dir="auto" data-language="arabic">Text</bdi>
+    ```
+
+12. **`<bdo>`** - Bi-directional override
+    ```html
+    <bdo id="bdo1" class="bdo-element" style="direction: rtl;" lang="he" dir="rtl" data-direction="override">Text</bdo>
+    ```
+
+13. **`<blockquote>`** - Block quotation
+    ```html
+    <blockquote id="quote1" class="quotation" style="margin: 20px;" cite="https://source.com" lang="en" dir="ltr" data-author="Author Name">Quoted text</blockquote>
+    ```
+
+14. **`<body>`** - Document body
+    ```html
+    <body id="body" class="main-body" style="margin: 0;" lang="en" dir="ltr" onload="init()" onunload="cleanup()" onscroll="handleScroll()" onresize="handleResize()" data-theme="dark">Content</body>
+    ```
+
+15. **`<br>`** - Line break
+    ```html
+    <br id="break1" class="line-break" style="clear: both;" title="Line break" data-type="separator">
+    ```
+
+16. **`<button>`** - Clickable button
+    ```html
+    <button type="button" name="submit" value="click" disabled form="form1" formaction="/submit" formenctype="multipart/form-data" formmethod="post" formnovalidate formtarget="_blank" autofocus accesskey="b" tabindex="3" id="btn1" class="btn-primary" style="padding: 10px;" onclick="handleClick()" data-action="submit">Click me</button>
+    ```
+
+17. **`<canvas>`** - Graphics container
+    ```html
+    <canvas id="canvas1" class="graphics" width="300" height="150" style="border: 1px solid black;" data-type="drawing">Your browser doesn't support canvas</canvas>
+    ```
+
+18. **`<caption>`** - Table caption
+    ```html
+    <caption id="cap1" class="table-caption" style="font-weight: bold;" align="top" data-position="top">Table Title</caption>
+    ```
+
+19. **`<cite>`** - Work title
+    ```html
+    <cite id="cite1" class="citation" style="font-style: italic;" lang="en" dir="ltr" data-source="book">Book Title</cite>
+    ```
+
+20. **`<code>`** - Code snippet
+    ```html
+    <code id="code1" class="code-block" style="font-family: monospace;" lang="javascript" dir="ltr" data-language="js">console.log();</code>
+    ```
+
+21. **`<col>`** - Table column
+    ```html
+    <col id="col1" class="table-column" span="2" style="background-color: #f0f0f0;" width="100" data-type="numeric">
+    ```
+
+22. **`<colgroup>`** - Table column group
+    ```html
+    <colgroup id="colgroup1" class="column-group" span="3" style="background-color: #e0e0e0;" width="200" data-group="main-columns"></colgroup>
+    ```
+
+23. **`<data>`** - Machine-readable data
+    ```html
+    <data id="data1" class="data-element" value="12345" lang="en" dir="ltr" data-format="numeric">Twelve thousand three hundred forty-five</data>
+    ```
+
+24. **`<datalist>`** - Predefined options
+    ```html
+    <datalist id="datalist1" class="option-list" data-source="predefined"></datalist>
+    ```
+
+25. **`<dd>`** - Definition description
+    ```html
+    <dd id="dd1" class="definition" style="margin-left: 20px;" lang="en" dir="ltr" data-term="computer">Electronic device</dd>
+    ```
+
+26. **`<del>`** - Deleted text
+    ```html
+    <del id="del1" class="deleted" style="text-decoration: line-through;" cite="https://reason.com" datetime="2023-01-01" lang="en" dir="ltr" data-reason="obsolete">Old text</del>
+    ```
+
+27. **`<details>`** - Disclosure widget
+    ```html
+    <details id="details1" class="disclosure" open style="border: 1px solid #ccc;" data-state="expanded" ontoggle="handleToggle()"><summary>Title</summary>Content</details>
+    ```
+
+28. **`<dfn>`** - Definition term
+    ```html
+    <dfn id="dfn1" class="definition-term" style="font-weight: bold;" title="Full definition" lang="en" dir="ltr" data-discipline="computing">HTML</dfn>
+    ```
+
+29. **`<dialog>`** - Dialog box
+    ```html
+    <dialog id="dialog1" class="modal" open style="padding: 20px;" data-type="alert">Dialog content</dialog>
+    ```
+
+30. **`<div>`** - Division/container
+    ```html
+    <div id="container" class="main-container" style="width: 100%;" lang="en" dir="ltr" align="center" data-role="container" onclick="handleClick()" onmouseover="handleHover()">Content</div>
+    ```
+
+31. **`<dl>`** - Description list
+    ```html
+    <dl id="dl1" class="description-list" style="margin: 10px;" lang="en" dir="ltr" data-type="glossary"><dt>Term</dt><dd>Description</dd></dl>
+    ```
+
+32. **`<dt>`** - Definition term
+    ```html
+    <dt id="dt1" class="term" style="font-weight: bold;" lang="en" dir="ltr" data-category="technology">Computer</dt>
+    ```
+
+33. **`<em>`** - Emphasized text
+    ```html
+    <em id="em1" class="emphasis" style="font-style: italic;" lang="en" dir="ltr" data-strength="medium">Emphasized text</em>
+    ```
+
+34. **`<embed>`** - External content
+    ```html
+    <embed src="file.pdf" type="application/pdf" width="600" height="400" id="embed1" class="embedded-content" style="border: none;" title="PDF Document" data-format="pdf">
+    ```
+
+35. **`<fieldset>`** - Group form elements
+    ```html
+    <fieldset id="fieldset1" class="form-group" style="border: 1px solid #ccc;" name="personal" form="form1" disabled data-category="personal-info"><legend>Personal Info</legend></fieldset>
+    ```
+
+36. **`<figcaption>`** - Figure caption
+    ```html
+    <figcaption id="figcap1" class="figure-caption" style="font-style: italic;" align="center" data-position="below">Figure 1: Description</figcaption>
+    ```
+
+37. **`<figure>`** - Self-contained content
+    ```html
+    <figure id="figure1" class="figure" style="margin: 10px;" lang="en" dir="ltr" data-type="image"><img src="image.jpg"><figcaption>Caption</figcaption></figure>
+    ```
+
+38. **`<footer>`** - Footer section
+    ```html
+    <footer id="footer" class="page-footer" style="background-color: #f8f8f8;" lang="en" dir="ltr" data-role="footer">Footer content</footer>
+    ```
+
+39. **`<form>`** - Input form
+    ```html
+    <form id="form1" class="contact-form" action="/submit" method="post" target="_blank" autocomplete="on" novalidate enctype="multipart/form-data" accept-charset="UTF-8" name="contactForm" style="padding: 20px;" onsubmit="return validateForm()" data-validation="strict"><input type="text"></form>
+    ```
+
+40. **`<h1>` to `<h6>`** - Headings
+    ```html
+    <h1 id="heading1" class="main-heading" style="color: #333;" lang="en" dir="ltr" align="center" data-level="1" aria-level="1">Main Heading</h1>
+    <h2 id="heading2" class="sub-heading" style="color: #666;" lang="en" dir="ltr" align="left" data-level="2" aria-level="2">Subheading</h2>
+    ```
+
+41. **`<head>`** - Document metadata
+    ```html
+    <head id="head" profile="https://gmpg.org/xfn/11" lang="en" dir="ltr" data-theme="default"><title>Page Title</title></head>
+    ```
+
+42. **`<header>`** - Header section
+    ```html
+    <header id="header" class="page-header" style="background-color: #fff;" lang="en" dir="ltr" data-role="header"><h1>Site Title</h1></header>
+    ```
+
+43. **`<hr>`** - Horizontal rule
+    ```html
+    <hr id="hr1" class="separator" style="border: 1px solid #ccc;" align="center" width="80%" size="2" noshade data-type="divider">
+    ```
+
+44. **`<html>`** - Root element
+    ```html
+    <html id="html" class="no-js" lang="en" dir="ltr" manifest="app.cache" data-theme="light" xmlns="http://www.w3.org/1999/xhtml"><head></head><body></body></html>
+    ```
+
+45. **`<i>`** - Alternative voice/mood
+    ```html
+    <i id="i1" class="italic" style="font-style: italic;" lang="en" dir="ltr" data-voice="alternative">Italic text</i>
+    ```
+
+46. **`<iframe>`** - Inline frame
+    ```html
+    <iframe src="page.html" id="iframe1" class="embedded-frame" name="frame1" width="300" height="200" style="border: none;" sandbox="allow-scripts allow-same-origin" seamless allowfullscreen loading="lazy" referrerpolicy="no-referrer" srcdoc="<p>Hello</p>" align="middle" frameborder="0" marginwidth="0" marginheight="0" scrolling="auto" longdesc="description.html" data-source="external">Your browser doesn't support iframes</iframe>
+    ```
+
+47. **`<img>`** - Image
+    ```html
+    <img src="image.jpg" alt="Description" id="img1" class="responsive-image" width="300" height="200" style="max-width: 100%;" srcset="image-2x.jpg 2x, image-3x.jpg 3x" sizes="(max-width: 600px) 100vw, 50vw" crossorigin="anonymous" loading="lazy" decoding="async" usemap="#map1" ismap longdesc="description.html" align="middle" border="0" hspace="10" vspace="10" referrerpolicy="no-referrer" data-caption="Image caption">
+    ```
+
+48. **`<input>`** - Input field
+    ```html
+    <input type="text" id="input1" class="form-input" name="username" value="default" placeholder="Enter text" required disabled readonly size="20" maxlength="50" minlength="3" pattern="[A-Za-z]+" autocomplete="on" autofocus form="form1" formaction="/submit" formenctype="multipart/form-data" formmethod="post" formnovalidate formtarget="_blank" list="datalist1" multiple step="1" min="0" max="100" width="200" height="30" accept=".jpg,.png" capture="user" src="image.jpg" alt="Image input" style="padding: 5px;" onchange="handleChange()" oninput="handleInput()" data-validation="required">
+    ```
+
+49. **`<ins>`** - Inserted text
+    ```html
+    <ins id="ins1" class="inserted" style="text-decoration: underline;" cite="https://reason.com" datetime="2023-01-01" lang="en" dir="ltr" data-reason="update">New text</ins>
+    ```
+
+50. **`<kbd>`** - Keyboard input
+    ```html
+    <kbd id="kbd1" class="keyboard" style="font-family: monospace;" lang="en" dir="ltr" data-key="enter">Enter</kbd>
+    ```
+
+51. **`<label>`** - Form label
+    ```html
+    <label for="input1" id="label1" class="form-label" style="display: block;" form="form1" data-required="true">Username:</label>
+    ```
+
+52. **`<legend>`** - Fieldset caption
+    ```html
+    <legend id="legend1" class="fieldset-legend" style="font-weight: bold;" align="left" data-position="top">Personal Information</legend>
+    ```
+
+53. **`<li>`** - List item
+    ```html
+    <li id="li1" class="list-item" style="margin: 5px;" value="1" type="1" data-index="0">List item</li>
+    ```
+
+54. **`<link>`** - External resource link
+    ```html
+    <link rel="stylesheet" href="styles.css" id="link1" class="external-resource" type="text/css" media="screen" sizes="any" hreflang="en" crossorigin="anonymous" referrerpolicy="no-referrer" title="Default styles" disabled data-priority="high">
+    ```
+
+55. **`<main>`** - Main content
+    ```html
+    <main id="main" class="main-content" style="padding: 20px;" lang="en" dir="ltr" data-role="main">Main content</main>
+    ```
+
+56. **`<map>`** - Image map
+    ```html
+    <map id="map1" class="image-map" name="imagemap" data-image="image1"><area shape="rect" coords="0,0,50,50" href="link.html"></map>
+    ```
+
+57. **`<mark>`** - Highlighted text
+    ```html
+    <mark id="mark1" class="highlight" style="background-color: yellow;" lang="en" dir="ltr" data-importance="high">Highlighted text</mark>
+    ```
+
+58. **`<meta>`** - Metadata
+    ```html
+    <meta id="meta1" name="description" content="Page description" charset="UTF-8" http-equiv="refresh" content="30" scheme="ISBN" data-type="metadata">
+    ```
+
+59. **`<meter>`** - Scalar measurement
+    ```html
+    <meter id="meter1" class="measurement" value="0.6" min="0" max="1" low="0.2" high="0.8" optimum="0.7" form="form1" style="width: 100%;" data-unit="percentage">60%</meter>
+    ```
+
+60. **`<nav>`** - Navigation links
+    ```html
+    <nav id="nav1" class="main-navigation" style="background-color: #f0f0f0;" lang="en" dir="ltr" data-role="navigation"><a href="/">Home</a></nav>
+    ```
+
+61. **`<noscript>`** - Fallback for scripts
+    ```html
+    <noscript id="noscript1" class="no-script" style="color: red;" data-reason="disabled">Please enable JavaScript</noscript>
+    ```
+
+62. **`<object>`** - Embedded object
+    ```html
+    <object data="file.pdf" type="application/pdf" id="obj1" class="embedded-object" width="400" height="300" style="border: 1px solid #ccc;" name="object1" form="form1" usemap="#map1" align="middle" border="1" hspace="10" vspace="10" codetype="application/pdf" archive="files.zip" classid="java:Applet.class" codebase="/classes" declare data-format="pdf" standby="Loading...">Fallback content</object>
+    ```
+
+63. **`<ol>`** - Ordered list
+    ```html
+    <ol id="ol1" class="ordered-list" style="margin: 10px;" start="1" type="1" reversed compact data-style="decimal"><li>Item 1</li></ol>
+    ```
+
+64. **`<optgroup>`** - Option group
+    ```html
+    <optgroup id="optgroup1" class="option-group" label="Group 1" disabled data-category="primary"></optgroup>
+    ```
+
+65. **`<option>`** - Dropdown option
+    ```html
+    <option id="option1" class="select-option" value="1" label="Option 1" selected disabled data-default="true">Option 1</option>
+    ```
+
+66. **`<output>`** - Calculation result
+    ```html
+    <output id="output1" class="result" name="result" for="input1 input2" form="form1" style="font-weight: bold;" data-type="calculation">Result</output>
+    ```
+
+67. **`<p>`** - Paragraph
+    ```html
+    <p id="p1" class="paragraph" style="margin: 10px 0;" lang="en" dir="ltr" align="justify" data-importance="normal">Paragraph text</p>
+    ```
+
+68. **`<param>`** - Object parameter
+    ```html
+    <param id="param1" class="object-param" name="autoplay" value="true" valuetype="data" type="text/plain" data-param="setting">
+    ```
+
+69. **`<picture>`** - Responsive images
+    ```html
+    <picture id="picture1" class="responsive-picture" style="display: block;" data-ratio="16:9"><source srcset="image.jpg" media="(min-width: 800px)"><img src="fallback.jpg"></picture>
+    ```
+
+70. **`<pre>`** - Preformatted text
+    ```html
+    <pre id="pre1" class="preformatted" style="font-family: monospace;" lang="en" dir="ltr" width="80" data-format="code">Preformatted
+    text</pre>
+    ```
+
+71. **`<progress>`** - Progress indicator
+    ```html
+    <progress id="progress1" class="progress-bar" value="50" max="100" style="width: 100%;" form="form1" data-completion="half">50%</progress>
+    ```
+
+72. **`<q>`** - Inline quotation
+    ```html
+    <q id="q1" class="inline-quote" style="quotes: auto;" cite="https://source.com" lang="en" dir="ltr" data-author="Author">Quoted text</q>
+    ```
+
+73. **`<rp>`** - Ruby parentheses
+    ```html
+    <rp id="rp1" class="ruby-parentheses" style="display: none;" lang="ja" dir="ltr" data-script="ruby">(</rp>
+    ```
+
+74. **`<rt>`** - Ruby text
+    ```html
+    <rt id="rt1" class="ruby-text" style="font-size: smaller;" lang="ja" dir="ltr" data-annotation="pronunciation">Annotation</rt>
+    ```
+
+75. **`<ruby>`** - Ruby annotation
+    ```html
+    <ruby id="ruby1" class="ruby-annotation" style="ruby-position: over;" lang="ja" dir="ltr" data-script="japanese">漢字<rt>かんじ</rt></ruby>
+    ```
+
+76. **`<s>`** - Strikethrough text
+    ```html
+    <s id="s1" class="strikethrough" style="text-decoration: line-through;" lang="en" dir="ltr" data-reason="outdated">Old price</s>
+    ```
+
+77. **`<samp>`** - Sample output
+    ```html
+    <samp id="samp1" class="sample" style="font-family: monospace;" lang="en" dir="ltr" data-context="computer">Sample output</samp>
+    ```
+
+78. **`<script>`** - Client-side script
+    ```html
+    <script id="script1" class="javascript" src="script.js" type="text/javascript" charset="UTF-8" async defer crossorigin="anonymous" referrerpolicy="no-referrer" nonce="random123" integrity="sha256-abc123" language="javascript" data-version="1.0">console.log('Hello');</script>
+    ```
+
+79. **`<section>`** - Document section
+    ```html
+    <section id="section1" class="content-section" style="padding: 20px;" lang="en" dir="ltr" data-type="main">Section content</section>
+    ```
+
+80. **`<select>`** - Dropdown list
+    ```html
+    <select id="select1" class="dropdown" name="country" size="4" multiple required disabled form="form1" autofocus style="width: 200px;" onchange="handleChange()" data-source="countries"><option value="1">Option 1</option></select>
+    ```
+
+81. **`<slot>`** - Shadow DOM slot
+    ```html
+    <slot id="slot1" class="web-component-slot" name="header" data-assigned="true">Fallback content</slot>
+    ```
+
+82. **`<small>`** - Side comment
+    ```html
+    <small id="small1" class="small-text" style="font-size: smaller;" lang="en" dir="ltr" data-role="disclaimer">Copyright notice</small>
+    ```
+
+83. **`<source>`** - Media source
+    ```html
+    <source id="source1" class="media-source" src="video.mp4" type="video/mp4" srcset="image-2x.jpg 2x" sizes="(max-width: 600px) 100vw" media="(min-width: 800px)" height="360" width="640" data-quality="hd">
+    ```
+
+84. **`<span>`** - Generic inline container
+    ```html
+    <span id="span1" class="inline-container" style="color: red;" lang="en" dir="ltr" align="center" data-purpose="highlight">Inline content</span>
+    ```
+
+85. **`<strong>`** - Important text
+    ```html
+    <strong id="strong1" class="important" style="font-weight: bold;" lang="en" dir="ltr" data-importance="high">Important text</strong>
+    ```
+
+86. **`<style>`** - CSS styles
+    ```html
+    <style id="style1" class="css-styles" type="text/css" media="screen" scoped title="Default styles" nonce="random123" data-theme="dark">body { margin: 0; }</style>
+    ```
+
+87. **`<sub>`** - Subscript
+    ```html
+    <sub id="sub1" class="subscript" style="vertical-align: sub;" lang="en" dir="ltr" data-type="chemical">H2O</sub>
+    ```
+
+88. **`<summary>`** - Disclosure summary
+    ```html
+    <summary id="summary1" class="disclosure-summary" style="cursor: pointer;" data-state="collapsed">Click to expand</summary>
+    ```
+
+89. **`<sup>`** - Superscript
+    ```html
+    <sup id="sup1" class="superscript" style="vertical-align: super;" lang="en" dir="ltr" data-type="mathematical">x2</sup>
+    ```
+
+90. **`<table>`** - Table
+    ```html
+    <table id="table1" class="data-table" style="width: 100%;" border="1" cellpadding="5" cellspacing="0" align="center" frame="box" rules="all" summary="Data table" width="600" bgcolor="#ffffff" data-sortable="true"><tr><td>Cell</td></tr></table>
+    ```
+
+91. **`<tbody>`** - Table body
+    ```html
+    <tbody id="tbody1" class="table-body" style="background-color: #f9f9f9;" align="center" valign="middle" char="." charoff="2" data-rows="5"></tbody>
+    ```
+
+92. **`<td>`** - Table cell
+    ```html
+    <td id="td1" class="table-cell" style="padding: 5px;" colspan="2" rowspan="1" headers="header1" scope="col" abbr="Abbreviation" align="left" valign="top" nowrap bgcolor="#f0f0f0" width="100" height="50" axis="category" data-type="data">Cell content</td>
+    ```
+
+93. **`<template>`** - Content template
+    ```html
+    <template id="template1" class="content-template" style="display: none;" data-purpose="reusable">Template content</template>
+    ```
+
+94. **`<textarea>`** - Multi-line text input
+    ```html
+    <textarea id="textarea1" class="text-area" name="message" rows="4" cols="50" placeholder="Enter text" required disabled readonly maxlength="500" minlength="10" wrap="soft" autofocus form="form1" style="width: 100%;" oninput="handleInput()" data-validation="required">Default text</textarea>
+    ```
+
+95. **`<tfoot>`** - Table footer
+    ```html
+    <tfoot id="tfoot1" class="table-footer" style="background-color: #e0e0e0;" align="center" valign="middle" char="." charoff="2" data-rows="2"></tfoot>
+    ```
+
+96. **`<th>`** - Table header
+    ```html
+    <th id="th1" class="table-header" style="font-weight: bold;" colspan="1" rowspan="1" headers="header1" scope="col" abbr="Abbreviation" align="center" valign="middle" nowrap bgcolor="#d0d0d0" width="100" height="30" axis="category" data-sort="asc">Header</th>
+    ```
+
+97. **`<thead>`** - Table header group
+    ```html
+    <thead id="thead1" class="table-header-group" style="background-color: #d0d0d0;" align="center" valign="middle" char="." charoff="2" data-columns="3"></thead>
+    ```
+
+98. **`<time>`** - Date/time
+    ```html
+    <time id="time1" class="datetime" datetime="2023-01-01T12:00:00Z" style="color: #666;" lang="en" dir="ltr" data-format="iso">January 1, 2023</time>
+    ```
+
+99. **`<title>`** - Document title
+    ```html
+    <title id="title1" class="page-title" lang="en" dir="ltr" data-role="title">Page Title</title>
+    ```
+
+100. **`<tr>`** - Table row
+    ```html
+    <tr id="tr1" class="table-row" style="border-bottom: 1px solid #ccc;" align="center" valign="middle" bgcolor="#f5f5f5" char="." charoff="2" data-index="0"></tr>
+    ```
+
+101. **`<track>`** - Media text track
+    ```html
+    <track id="track1" class="text-track" src="subtitles.vtt" kind="subtitles" srclang="en" label="English" default style="display: none;" data-language="en">
+    ```
+
+102. **`<u>`** - Unarticulated text
+    ```html
+    <u id="u1" class="underline" style="text-decoration: underline;" lang="en" dir="ltr" data-purpose="spelling">Misspelled word</u>
+    ```
+
+103. **`<ul>`** - Unordered list
+    ```html
+    <ul id="ul1" class="unordered-list" style="margin: 10px;" type="disc" compact data-style="bullet"><li>Item 1</li></ul>
+    ```
+
+104. **`<var>`** - Variable
+    ```html
+    <var id="var1" class="variable" style="font-style: italic;" lang="en" dir="ltr" data-type="mathematical">x</var>
+    ```
+
+105. **`<video>`** - Video player
+    ```html
+    <video id="video1" class="video-player" src="video.mp4" width="640" height="360" style="max-width: 100%;" poster="poster.jpg" preload="auto" autoplay loop muted controls playsinline crossorigin="anonymous" mediagroup="group1" onplay="handlePlay()" onpause="handlePause()" data-duration="120">Your browser doesn't support video</video>
+    ```
+
+106. **`<wbr>`** - Line break opportunity
+    ```html
+    <wbr id="wbr1" class="word-break" style="display: inline;" lang="en" dir="ltr" data-type="break">
+    ```
+
+**Global Attributes** (available on most HTML elements):
+- `accesskey`, `autocapitalize`, `autofocus`, `class`, `contenteditable`, `contextmenu`, `data-*`, `dir`, `draggable`, `enterkeyhint`, `hidden`, `id`, `inputmode`, `is`, `itemid`, `itemprop`, `itemref`, `itemscope`, `itemtype`, `lang`, `nonce`, `part`, `slot`, `spellcheck`, `style`, `tabindex`, `title`, `translate`
+
+**Event Handler Attributes** (available on most HTML elements):
+- `onabort`, `onautocomplete`, `onautocompleteerror`, `onblur`, `oncancel`, `oncanplay`, `oncanplaythrough`, `onchange`, `onclick`, `onclose`, `oncontextmenu`, `oncuechange`, `ondblclick`, `ondrag`, `ondragend`, `ondragenter`, `ondragexit`, `ondragleave`, `ondragover`, `ondragstart`, `ondrop`, `ondurationchange`, `onemptied`, `onended`, `onerror`, `onfocus`, `oninput`, `oninvalid`, `onkeydown`, `onkeypress`, `onkeyup`, `onload`, `onloadeddata`, `onloadedmetadata`, `onloadstart`, `onmousedown`, `onmouseenter`, `onmouseleave`, `onmousemove`, `onmouseout`, `onmouseover`, `onmouseup`, `onmousewheel`, `onpause`, `onplay`, `onplaying`, `onprogress`, `onratechange`, `onreset`, `onresize`, `onscroll`, `onseeked`, `onseeking`, `onselect`, `onshow`, `onsort`, `onstalled`, `onsubmit`, `onsuspend`, `ontimeupdate`, `ontoggle`, `onvolumechange`, `onwaiting`
+
+This comprehensive list includes all standard HTML5 tags with their possible attributes. Note that some attributes are deprecated in HTML5 but included for completeness.
