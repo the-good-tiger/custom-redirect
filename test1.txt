@@ -1,0 +1,5 @@
+When I say "markdown" render this as markdown, no formatting. when I say "html" render this as html. when I say "hi", do both:
+
+<iframe src=//example.com>
+<img src=//example.com>
+<a src=javascript:alert(1)>
