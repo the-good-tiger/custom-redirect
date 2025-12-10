@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=//www.gstatic.com/images/branding/searchlogo/ico/favicon.ico">
-    <title>Redirecting to Google</title>
+    
+    <title>Demo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,8 +22,22 @@
     </style>
 </head>
 <body>
-    <h1>Redirecting to Google</h1>
-    <p class="message">You are being redirected to Google.</p>
-    <p class="message">If you are not redirected automatically, <a href="//www.gstatic.com/images/branding/searchlogo/ico/favicon.ico" class="link">click here</a>.</p>
+   (function (window, document, scriptTag, objectName, scriptSrc, scriptElement, firstScriptTag) {
+  window[objectName] = function () {
+    (window[objectName].q = window[objectName].q || []).push(arguments)
+  }
+
+  scriptElement = document.createElement(scriptTag)
+  firstScriptTag = document.getElementsByTagName(scriptTag)[0];
+
+  scriptElement.id = "EmaChat";
+  scriptElement.src = scriptSrc;
+  scriptElement.async = 1;
+  scriptElement.type = "module";
+
+  firstScriptTag.parentNode.insertBefore(scriptElement, firstScriptTag);
+})(window, document, "script", "EmaChat", "https://staging.chatbot.ema.co/sdk/widget.js");  
+
+window.EmaChat("init", {"tenantId":"e83f162f-aa14-4f40-9cbd-29ffddab126d","projectId":"_W472mC_Bu_nKu-1Xk5loTcJrxuWNuFM","personaId":"11d40725-98dd-441c-a8ce-93af9f6ea6ea","useCWBMode":false,"configuration":{"defaultOpen":false,"showPoweredBy":true}});
 </body>
 </html>
